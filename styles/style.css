@@ -70,7 +70,7 @@ blockquote {
 
 .header__menu-link {
   text-decoration: underline;
-} 
+}
 
 .header__menu-item_active {
   text-decoration: none;
@@ -124,7 +124,7 @@ blockquote {
   line-height: 120%;
 }
 
-.intro__main-text { 
+.intro__main-text {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -153,7 +153,7 @@ blockquote {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 135%; 
+  line-height: 135%;
 }
 
 .content-section__list {
@@ -250,7 +250,7 @@ blockquote {
   font-family: EB Garamond;
   font-size: 22px;
   font-weight: 500;
-  line-height: 135%; 
+  line-height: 135%;
 }
 
 .footer {
