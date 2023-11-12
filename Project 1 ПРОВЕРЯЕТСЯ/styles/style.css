@@ -1,0 +1,289 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: 'Inter', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  box-sizing: border-box;
+  width: 360px;
+  margin: auto;
+}
+
+.content-section-theme-dark {
+  color: #f5f5f5;
+  background-color:#131313;
+}
+
+.content-section-theme-bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 20px;
+}
+
+.header__logo {
+  width: 80px;
+  height: 16px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  list-style: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.header__menu-item {
+  color: #f5f5f5;
+}
+
+.header__menu-item_active {
+  text-decoration: none;
+}
+
+.cover {
+  background-image: url('../images/cover.svg');
+  background-size: 339px 199px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.cover__title {
+  padding: 21px 24px 0px 21px;
+  color: #fff;
+  font-family: 'EB Garamond', serif;
+  line-height: 95%;
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.accent-span__first-line {
+  position: relative;
+  bottom: 8px;
+  right: 1px;
+}
+
+.accent-span__second-line {
+  position: relative;
+  bottom: 5px;
+  left: 1px;
+}
+
+.cover__text {
+  padding-bottom: 5px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 30px 20px 37px;
+}
+
+.intro__heading {
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.intro__title {
+  max-width: 60%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.intro__date {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.reasons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 20px;
+}
+
+.content-section__subtitle {
+  font-family: 'EB Garamond', serif;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 115%;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.content-section__list-accent {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.how-to {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px 20px 58px;
+}
+
+.card {
+  list-style: none;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.card_theme_dark {
+  background-color:#343434;
+  color: #f5f5f5;
+}
+
+.card_author_main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border-radius: 30px;
+  padding: 21px;
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+}
+
+.card__author-name {
+  color: #F5F5F5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+}
+
+.card__title {
+  color: #f5f5f5;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.card__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card_text-only {
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.card__title__bright {
+  color: #131313;
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 135%;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #fee42a;
+  padding: 21px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 125%;
+}
